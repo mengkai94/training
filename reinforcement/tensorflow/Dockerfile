@@ -14,7 +14,7 @@ RUN apt-get install -y python-setuptools
 RUN apt-get install -y python-pip python3-pip virtualenv htop
 RUN pip3 install virtualenv
 RUN pip3 install virtualenvwrapper
-RUN pip3 install --upgrade numpy scipy sklearn tf-nightly-gpu
+#RUN pip3 install --upgrade numpy scipy sklearn tf-nightly-gpu
 #RUN pip3 install --upgrade numpy scipy sklearn tf-nightly-gpu
 # Mount data into the docker
 ADD . /research/reinforcement
